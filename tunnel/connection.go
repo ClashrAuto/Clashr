@@ -9,7 +9,7 @@ import (
 	"time"
 
 	adapters "github.com/ClashrAuto/Clashr/adapters/inbound"
-	"github.com/zu1k/clashr/common/pool"
+	"github.com/ClashrAuto/Clashr/common/pool"
 )
 
 func (t *Tunnel) handleHTTP(request *adapters.HTTPAdapter, outbound net.Conn) {
