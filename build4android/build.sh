@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Build:
-#   - git clone -b dev https://github.com/zu1k/clashr
+#   - git clone -b dev https://github.com/ClashrAuto/Clashr
 #   - cd clashr
 #   - ANDROID_NDK=/path/to/android/ndk /path/to/this/script
 #
@@ -24,7 +24,7 @@ export CXX=$ANDROID_CXX
 export CC=$ANDROID_CC 
 export LD=$ANDROID_LD 
 export CGO_ENABLED=1
-go build -ldflags "-X \"github.com/zu1k/clashr/constant.Version=$VERSION\" -X \"github.com/zu1k/clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
+go build -ldflags "-X \"github.com/ClashrAuto/Clashr/constant.Version=$VERSION\" -X \"github.com/ClashrAuto/Clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
             -o "build4android/clashr_arm64"
 
 
@@ -37,7 +37,7 @@ export CXX=$ANDROID_CXX
 export CC=$ANDROID_CC 
 export LD=$ANDROID_LD 
 export CGO_ENABLED=1
-go build -ldflags "-X \"github.com/zu1k/clashr/constant.Version=$VERSION\" -X \"github.com/zu1k/clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
+go build -ldflags "-X \"github.com/ClashrAuto/Clashr/constant.Version=$VERSION\" -X \"github.com/ClashrAuto/Clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
             -o "build4android/clashr_armv7a"
 
 
@@ -50,7 +50,7 @@ export CC=$ANDROID_CC
 export LD=$ANDROID_LD 
 export CGO_ENABLED=1
 export GOARCH=386
-go build -ldflags "-X \"github.com/zu1k/clashr/constant.Version=$VERSION\" -X \"github.com/zu1k/clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
+go build -ldflags "-X \"github.com/ClashrAuto/Clashr/constant.Version=$VERSION\" -X \"github.com/ClashrAuto/Clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
             -o "build4android/clashr_x86"
 
 
@@ -63,7 +63,7 @@ export CC=$ANDROID_CC
 export LD=$ANDROID_LD 
 export CGO_ENABLED=1
 export GOARCH=amd64
-go build -ldflags "-X \"github.com/zu1k/clashr/constant.Version=$VERSION\" -X \"github.com/zu1k/clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
+go build -ldflags "-X \"github.com/ClashrAuto/Clashr/constant.Version=$VERSION\" -X \"github.com/ClashrAuto/Clashr/constant.BuildTime=$BUILDTIME\" -w -s" \
             -o "build4android/clashr_amd64"
 
 
