@@ -1,20 +1,20 @@
 <h1 align="center">
-  <img src="https://github.com/zu1k/clashr/raw/master/docs/logo.png" alt="Clash" width="200">
+  <img src="https://github.com/ClashrAuto/Clashr/raw/master/docs/logo.png" alt="Clash" width="200">
   <br>Clash<br>
 </h1>
 
 <h4 align="center">A rule-based tunnel in Go.</h4>
 
 <p align="center">
-  <a href="https://travis-ci.org/zu1k/clashr">
-    <img src="https://img.shields.io/travis/zu1k/clashr.svg?style=flat-square"
+  <a href="https://travis-ci.org/ClashrAuto/Clashr">
+    <img src="https://img.shields.io/travis/ClashrAuto/Clashr.svg?style=flat-square"
          alt="Travis-CI">
   </a>
-  <a href="https://goreportcard.com/report/github.com/zu1k/clashr">
-    <img src="https://goreportcard.com/badge/github.com/zu1k/clashr?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/ClashrAuto/Clashr">
+    <img src="https://goreportcard.com/badge/github.com/ClashrAuto/Clashr?style=flat-square">
   </a>
-  <a href="https://github.com/zu1k/clashr/releases">
-    <img src="https://img.shields.io/github/release/zu1k/clashr/all.svg?style=flat-square">
+  <a href="https://github.com/ClashrAuto/Clashr/releases">
+    <img src="https://img.shields.io/github/release/ClashrAuto/Clashr/all.svg?style=flat-square">
   </a>
 </p>
 
