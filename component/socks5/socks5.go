@@ -7,7 +7,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/zu1k/clashr/component/auth"
+	"github.com/ClashrAuto/Clashr/component/auth"
 )
 
 // Error represents a SOCKS error

@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/zu1k/clashr/component/socks5"
+	"github.com/ClashrAuto/Clashr/component/socks5"
 )
 
 const (

@@ -6,8 +6,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/zu1k/clashr/common/cache"
-	"github.com/zu1k/clashr/log"
+	"github.com/ClashrAuto/Clashr/common/cache"
+	"github.com/ClashrAuto/Clashr/log"
 	yaml "gopkg.in/yaml.v2"
 
 	D "github.com/miekg/dns"

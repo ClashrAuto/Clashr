@@ -9,7 +9,7 @@ import (
 	"os"
 	"strings"
 
-	C "github.com/zu1k/clashr/constant"
+	C "github.com/ClashrAuto/Clashr/constant"
 
 	log "github.com/sirupsen/logrus"
 )

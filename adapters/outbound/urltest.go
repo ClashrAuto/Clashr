@@ -8,8 +8,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zu1k/clashr/common/picker"
-	C "github.com/zu1k/clashr/constant"
+	"github.com/ClashrAuto/Clashr/common/picker"
+	C "github.com/ClashrAuto/Clashr/constant"
 )
 
 type URLTest struct {

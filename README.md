@@ -32,10 +32,10 @@
 Clash Requires Go >= 1.13. You can build it from source:
 
 ```sh
-$ go get -u -v github.com/zu1k/clashr
+$ go get -u -v github.com/ClashrAuto/Clashr
 ```
 
-Pre-built binaries are available here: [release](https://github.com/zu1k/clashr/releases)
+Pre-built binaries are available here: [release](https://github.com/ClashrAuto/Clashr/releases)
 
 Check Clash version with:
 
@@ -57,7 +57,7 @@ $ pm2 start clash
 
 If you have Docker installed, you can run clash directly using `docker-compose`.
 
-[Run clash in docker](https://github.com/zu1k/clashr/wiki/Run-clash-in-docker)
+[Run clash in docker](https://github.com/ClashrAuto/Clashr/wiki/Run-clash-in-docker)
 
 ## Config
 

@@ -21,6 +21,6 @@ deploy:
   file: bin/*
   file_glob: true
   on:
-    repo: zu1k/clashr
+    repo: ClashrAuto/Clashr
     branch: master
     tags: true

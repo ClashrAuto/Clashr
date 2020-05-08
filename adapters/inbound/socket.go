@@ -3,8 +3,8 @@ package adapters
 import (
 	"net"
 
-	"github.com/zu1k/clashr/component/socks5"
-	C "github.com/zu1k/clashr/constant"
+	"github.com/ClashrAuto/Clashr/component/socks5"
+	C "github.com/ClashrAuto/Clashr/constant"
 )
 
 // SocketAdapter is a adapter for socks and redir connection

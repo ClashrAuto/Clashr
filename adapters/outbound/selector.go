@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net"
 
-	C "github.com/zu1k/clashr/constant"
+	C "github.com/ClashrAuto/Clashr/constant"
 )
 
 type Selector struct {

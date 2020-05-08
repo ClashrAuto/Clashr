@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/zu1k/clashr/common/pool"
+	"github.com/ClashrAuto/Clashr/common/pool"
 )
 
 type aeadWriter struct {

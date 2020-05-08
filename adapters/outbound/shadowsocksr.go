@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	C "github.com/zu1k/clashr/constant"
+	C "github.com/ClashrAuto/Clashr/constant"
 	"github.com/zu1k/gossr/obfs"
 	"github.com/zu1k/gossr/protocol"
 	"net"

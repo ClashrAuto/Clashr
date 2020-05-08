@@ -3,7 +3,7 @@ package tunnel
 import (
 	"net"
 
-	C "github.com/zu1k/clashr/constant"
+	C "github.com/ClashrAuto/Clashr/constant"
 )
 
 // TrafficTrack record traffic of net.Conn

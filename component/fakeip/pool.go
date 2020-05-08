@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/zu1k/clashr/common/cache"
+	"github.com/ClashrAuto/Clashr/common/cache"
 )
 
 // Pool is a implementation about fake ip generator without storage
