@@ -5,14 +5,14 @@ import (
 	"encoding/json"
 	"errors"
 	C "github.com/ClashrAuto/Clashr/constant"
-	"github.com/zu1k/gossr/obfs"
-	"github.com/zu1k/gossr/protocol"
+	"github.com/ClashrAuto/gossr/obfs"
+	"github.com/ClashrAuto/gossr/protocol"
 	"net"
 	"strconv"
 	"strings"
 
-	"github.com/zu1k/gossr"
-	"github.com/zu1k/gossr/ssr"
+	"github.com/ClashrAuto/gossr"
+	"github.com/ClashrAuto/gossr/ssr"
 )
 
 type ShadowsocksR struct {
