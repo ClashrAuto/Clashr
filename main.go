@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"syscall"
 
-	"github.com/zu1k/clashr/config"
-	C "github.com/zu1k/clashr/constant"
-	"github.com/zu1k/clashr/hub"
+	"github.com/ClashrAuto/Clashr/config"
+	C "github.com/ClashrAuto/Clashr/constant"
+	"github.com/ClashrAuto/Clashr/hub"
 
 	log "github.com/sirupsen/logrus"
 )
