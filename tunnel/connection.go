@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	adapters "github.com/zu1k/clashr/adapters/inbound"
+	adapters "github.com/ClashrAuto/Clashr/adapters/inbound"
 	"github.com/zu1k/clashr/common/pool"
 )
 
