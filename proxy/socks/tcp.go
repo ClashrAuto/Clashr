@@ -5,12 +5,12 @@ import (
 	"io/ioutil"
 	"net"
 
-	adapters "github.com/zu1k/clashr/adapters/inbound"
-	"github.com/zu1k/clashr/component/socks5"
-	C "github.com/zu1k/clashr/constant"
-	"github.com/zu1k/clashr/log"
-	authStore "github.com/zu1k/clashr/proxy/auth"
-	"github.com/zu1k/clashr/tunnel"
+	adapters "github.com/ClashrAuto/Clashr/adapters/inbound"
+	"github.com/ClashrAuto/Clashr/component/socks5"
+	C "github.com/ClashrAuto/Clashr/constant"
+	"github.com/ClashrAuto/Clashr/log"
+	authStore "github.com/ClashrAuto/Clashr/proxy/auth"
+	"github.com/ClashrAuto/Clashr/tunnel"
 )
 
 var (
